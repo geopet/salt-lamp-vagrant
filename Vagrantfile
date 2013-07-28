@@ -1,6 +1,7 @@
 Vagrant.configure("2") do |config|
   ## Choose your base box
   config.vm.box = "precise64"
+  config.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
   ## For masterless, mount your file roots file root
   config.vm.synced_folder "salt/roots/", "/srv/"
