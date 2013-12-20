@@ -7,7 +7,10 @@ services provided by [SaltStack](http://saltstack.com/) to build a LAMP stack.
 ## Requirements
 
 In order to use this you need to have
-[Vagrant installed](http://docs.vagrantup.com/v2/installation/) and the
+[Vagrant installed](http://docs.vagrantup.com/v2/installation/).
+
+Since 1.3, Vagrant has had native Salt support. If you're running an older
+version of Vagrant for some reason, you'll need to have the
 [Salty Vagrant plugin](https://github.com/saltstack/salty-vagrant) installed.
 
 Once you have Vagrant installed, installing the Salty Vagrant plugin is as
