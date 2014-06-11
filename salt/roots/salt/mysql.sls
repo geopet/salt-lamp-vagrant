@@ -7,3 +7,5 @@ mysql:
       - php5-mysql
   service:
     - running
+    - require:
+      - pkg: mysql-server
